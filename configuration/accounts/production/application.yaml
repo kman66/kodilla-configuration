@@ -2,13 +2,10 @@
 server:
   port: 7777
 
-# DATABASE CONFIGURATION
-spring:
-  jpa:
-    hibernate:
-      ddl-auto: update
-    database: postgresql
+accounts:
   datasource:
     url: jdbc:postgresql://localhost:5432/kodilla-microservices
     username: kodilla-user
     password: kodilla
+    ddl-mode: update
+  allow-get-accounts: false
