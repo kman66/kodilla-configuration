@@ -1,0 +1,10 @@
+server:
+  port: 7778
+
+customer:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/kodilla-microservices
+    username: kodilla-user
+    password: kodilla
+    ddl-mode: update
+  allow-get-accounts: true
