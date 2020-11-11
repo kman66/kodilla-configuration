@@ -8,4 +8,3 @@ customer:
     password: kodilla
     ddl-mode: update
     database: postgresql
-  allow-get-accounts: true
