@@ -1,3 +1,6 @@
+server:
+  port: 7777
+
 accounts:
   datasource:
     url: jdbc:postgresql://localhost:5432/kodilla-microservices
