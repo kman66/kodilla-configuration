@@ -6,5 +6,6 @@ cards:
     url: jdbc:postgresql://localhost:5432/kodilla-microservices
     username: kodilla-user
     password: kodilla
-    ddl-mode: create
+    generate-ddl: true
+    ddl-mode: update
     database: postgresql
